@@ -299,6 +299,12 @@
             margin-bottom: 10px;
         }
 
+        .contact-card strong {
+            display: block;
+            margin-top: 15px;
+            color: #D4AF37;
+        }
+
         .contact-form input,
         .contact-form textarea {
             width: 100%;
@@ -567,34 +573,37 @@
     <section class="section" id="contato">
         <div class="container">
             <div class="section-title">
-                <h2>Entre em Contato</h2>
-                <p>Estamos à disposição para ajudar em sua jornada musical</p>
+                <h2>Contato</h2>
             </div>
 
             <div class="contact-info">
                 <div class="contact-card">
-                    <h3>Informações</h3>
-                    <p>Rua dos Instrumentos, 123</p>
-                    <p>São Paulo, SP - Brasil</p>
-                    <p>contato@sonoraancestral.com</p>
-                    <p>+55 (11) 99999-9999</p>
+                    <h3>Informações de Contato</h3>
+                    <p><strong>Endereço</strong><br>
+                    Rua dos Instrumentos, 123 - Centro Histórico</p>
+                    
+                    <p><strong>Telefone</strong><br>
+                    +55 (11) 98765-4321</p>
+                    
+                    <p><strong>Email</strong><br>
+                    contato@gruposomegarofe.com.br</p>
+                    
+                    <p><strong>Horário de Funcionamento</strong><br>
+                    Segunda a Sexta: 9h às 18h<br>
+                    Sábado: 10h às 15h</p>
                 </div>
 
                 <div class="contact-card">
-                    <h3>Horário de Funcionamento</h3>
-                    <p>Segunda a Sexta: 9h às 18h</p>
-                    <p>Sábados: 10h às 16h</p>
-                    <p>Domingos e Feriados: Fechado</p>
+                    <h3>Envie uma Mensagem</h3>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Nome">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Assunto">
+                        <textarea rows="5" placeholder="Mensagem"></textarea>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
                 </div>
             </div>
-
-            <form class="contact-form">
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Assunto">
-                <textarea rows="5" placeholder="Mensagem"></textarea>
-                <button type="submit" class="btn">Enviar Mensagem</button>
-            </form>
         </div>
     </section>
 
@@ -651,4 +660,3 @@
     </script>
 </body>
 </html>
-
